@@ -12,4 +12,4 @@ double result = Math.Sqrt(
                             + Math.Pow((arr[4] - arr[1]), 2)
                             + Math.Pow((arr[5] - arr[2]), 2)
                         );
-Console.WriteLine(Math.Round(result, 2));
+Console.WriteLine($"Distance: {Math.Round(result, 2)}");
