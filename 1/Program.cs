@@ -1,6 +1,6 @@
 ﻿Console.Write("Enter a five-digit number: ");
 int num = Convert.ToInt32(Console.ReadLine());
-if (num < 10000 || num > 100000) Console.WriteLine("Not a five digit number");
+if (num < 10000 || num >= 100000) Console.WriteLine("Not a five digit number");
 else
 {
     int[] numsArr = new int[5];
